@@ -1,6 +1,4 @@
-# keras-tutorial
-
-Tutorial sobre Tensorflow+Keras
+# Tutorial sobre Tensorflow+Keras
 
 ## Uso
 
@@ -9,7 +7,7 @@ Tienes dos opciones: usar tu propia instalación de Python o usar Docker para no
 ### Con Docker
 
 ```
-git clone https://github.com/fdavidcl/keras-tutorial
+git clone https://github.com/libreim/dl-tutorial
 cd keras-tutorial
 docker run --rm -p 8888:8888 -v $(pwd):/home/jovyan/work \
   -e JUPYTER_ENABLE_LAB=1 -e JUPYTER_TOKEN=libreim \
